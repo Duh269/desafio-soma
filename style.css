@@ -1,0 +1,68 @@
+body, html,h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.principal {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.btn-default {
+    border: 0;
+    height: 120px;
+    margin: 5px;
+    width: 120px;
+    color:blue ;
+    text-transform: uppercase;
+}
+
+.btn-default-category {
+    border: 0;
+    height: 60px;
+    margin: 5px;
+    width: 120px;
+    color:blue ;
+    text-transform: uppercase;
+}
+
+.btn-default:hover {
+    border: 2px solid rgb(61, 61, 106);
+}
+
+footer {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    background-color: rgb(61, 61, 106);
+    height: 50px;
+    bottom: 0;
+    color: #FFF;
+    padding: 5px;
+}
+
+.mostra_dados {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    height: 600px;
+    border: 2px solid black;
+    overflow: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: left;
+    padding: 3%;
+}
+
+.mostra_dados span {
+font-weight: 900;
+}
+
+@media screen and (max-width: 769px) {
+    
+}
